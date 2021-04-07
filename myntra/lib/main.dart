@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
       tooltip: 'Open ChatRoom',
       onPressed: () {
         Navigator.of(context)
-              .pushReplacementNamed('/chatRoom');
+              .pushReplacementNamed('/chatRoom()');
       },
       ),],
     ),

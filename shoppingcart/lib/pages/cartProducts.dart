@@ -11,7 +11,7 @@ class CartProductsState extends State<CartProducts> {
       "name": "Calvin Klein Jeans",
       "subname": "Women Blue Skinny Fit Mid-Rise Clean Look Stretchable Jeans",
       "picture": "img/jeans.jpg",
-      "price": 85,
+      "price": 850,
       "size": "M",
       "quantity": 1,
     },
@@ -19,7 +19,7 @@ class CartProductsState extends State<CartProducts> {
       "name": "Roadster",
       "subname": "Women Blue Skinny Fit Mid-Rise Clean Look Stretchable Jeans",
       "picture": "img/jeans1.jpg",
-      "price": 85,
+      "price": 500,
       "size": "M",
       "quantity": 1,
     },
@@ -27,7 +27,7 @@ class CartProductsState extends State<CartProducts> {
       "name": "Nike",
       "subname": "Women Blue Skinny Fit Mid-Rise Clean Look Stretchable Jeans",
       "picture": "img/shoe.jpg",
-      "price": 185,
+      "price": 1800,
       "size": "M",
       "quantity": 1,
     },
@@ -35,7 +35,7 @@ class CartProductsState extends State<CartProducts> {
       "name": "Nike",
       "subname": "Women Blue Skinny Fit Mid-Rise Clean Look Stretchable Jeans",
       "picture": "img/shoe.jpg",
-      "price": 185,
+      "price": 1850,
       "size": "M",
       "quantity": 1,
     },
@@ -107,7 +107,7 @@ class Singlecartproduct extends StatelessWidget {
                   child: new Text("Qty:"),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(4.0),
+                  padding: const EdgeInsets.all(.0),
                   child: new Text(
                     "1",
                     style: TextStyle(color: Colors.pink),
@@ -116,9 +116,9 @@ class Singlecartproduct extends StatelessWidget {
               ],
             ),
             new Container(
-              alignment: Alignment.topLeft,
+              alignment: Alignment.topRight,
               child: new Text(
-                "\$$cartprodprice",
+                "\u20B9 $cartprodprice",
                 style: TextStyle(
                   fontSize: 17.0,
                   fontWeight: FontWeight.bold,
